@@ -339,9 +339,9 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
               <img
-                src="/betterpush-icon.png"
+                src="/betterpush.png"
                 alt="BetterPush"
-                className="h-8 w-auto mb-4"
+                className="h-16 w-auto mb-4"
               />
               <p className="text-slate-600 text-sm">
                 Unified deployment interface for modern developers.
