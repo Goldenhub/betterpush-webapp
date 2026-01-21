@@ -13,7 +13,7 @@ import { getDeviceId } from "@/lib/utils";
 
 export default function NavMenu() {
   const { isAuthenticated, user, isLoading } = useAuth();
-  const { mutate, isPending } = useLogout();
+  const { mutate } = useLogout();
   const context = useContext(AppContext);
   const navigate = useNavigate();
 

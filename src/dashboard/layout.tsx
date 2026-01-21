@@ -1,5 +1,5 @@
 // import Header from "../components/Header";
-import { Navigate, Outlet, useLocation } from "react-router";
+import { Navigate, Outlet } from "react-router";
 // import NavMenu from "../components/side-nav";
 import { ROUTES } from "@/constants";
 import { useAuth } from "@/lib/ProviderHooks";
